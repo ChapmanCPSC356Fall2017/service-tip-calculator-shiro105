@@ -1,9 +1,8 @@
-# Header
+# Assignment 0: Create a Service Tip Calculator
 - Matthew Shiroma
 - ID: 1902187
 - shiro105@mail.chapman.edu
 - CPSC 356 - 01
-# Assignment 0: Create a Service Tip Calculator
 
 ## Specifications
 ```
