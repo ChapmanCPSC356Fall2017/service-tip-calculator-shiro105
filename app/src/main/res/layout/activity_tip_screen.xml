@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tip_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:animateLayoutChanges="true"
+
+    tools:context="cpsc356.servicetipcalculator.TipScreen">
+
+    <TextView
+        android:id="@+id/result_price_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="gone"
+        android:text="@string/result_price"
+        />
+
+    <EditText
+        android:id="@+id/total_price_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:maxLines="1"
+        android:maxLength="7"
+        android:inputType="numberDecimal"
+        android:layout_margin="10dp"
+        android:hint="@string/total_price_hint"
+        />
+
+    <TextView
+        android:id="@+id/tip_display_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:text="@string/tip_display"
+        />
+
+    <SeekBar
+        android:id="@+id/tip_scale_SeekBar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:max="9"
+        android:visibility="gone"
+        android:thumb="@drawable/thumb_size"
+        />
+
+    <!--
+        This is a block of text that's a comment.
+    -->
+</LinearLayout>
